@@ -1,0 +1,242 @@
+[
+  {
+    "id": "0001",
+    "name": "Barbell Bench Press",
+    "name_zh": "杠铃卧推",
+    "category": "strength",
+    "body_part": "chest",
+    "equipment": "barbell",
+    "target": "pectorals",
+    "secondary_muscles": [
+      "triceps",
+      "shoulders"
+    ],
+    "instructions": [
+      "Lie on a flat bench with your eyes under the bar.",
+      "Grip the bar slightly wider than shoulder-width.",
+      "Unrack the bar, lower it slowly to your mid-chest, then press it back up."
+    ],
+    "instruction_steps": [
+      "1. 躺在平板卧推凳上，双脚平放地面。",
+      "2. 双手握住杠铃，握距略宽于肩宽。",
+      "3. 将杠铃从架上取下，缓慢下放至胸骨中部。",
+      "4. 发力将杠铃推回起始位置，手臂微屈但不锁死。"
+    ],
+    "common_mistakes": [
+      "臀部离开长凳（起桥过大导致腰椎代偿）",
+      "杠铃下落位置过高直接压到肩关节",
+      "手腕过度后翻"
+    ],
+    "safety_tips": [
+      "大重量训练时必须有保护者（Spotter）在旁",
+      "如果独自训练，请使用带有安全限位销的深蹲架/卧推架"
+    ]
+  },
+  {
+    "id": "0002",
+    "name": "Push-up",
+    "name_zh": "标准俯卧撑",
+    "category": "strength",
+    "body_part": "chest",
+    "equipment": "body weight",
+    "target": "pectorals",
+    "secondary_muscles": [
+      "triceps",
+      "core",
+      "shoulders"
+    ],
+    "instructions": [
+      "Start in a plank position with hands slightly wider than shoulders.",
+      "Lower your body until your chest nearly touches the floor.",
+      "Push back up to the starting position."
+    ],
+    "instruction_steps": [
+      "1. 双手撑地，距离略宽于肩膀，双腿向后伸直，收紧核心。",
+      "2. 屈肘向下身体整体下沉，保持身体呈一条直线。",
+      "3. 当胸部贴近地面或距离地面几公分时，胸大肌发力推回原位。"
+    ],
+    "common_mistakes": [
+      "塌腰、翘臀（核心没有收紧）",
+      "手肘向外张开过大（对肩袖造成过大压力）"
+    ],
+    "safety_tips": [
+      "初学者如果无法完成标准俯卧撑，可以尝试膝盖着地的跪姿俯卧撑。"
+    ]
+  },
+  {
+    "id": "0003",
+    "name": "Pull-up",
+    "name_zh": "引体向上",
+    "category": "strength",
+    "body_part": "back",
+    "equipment": "body weight",
+    "target": "lats",
+    "secondary_muscles": [
+      "biceps",
+      "upper back"
+    ],
+    "instructions": [
+      "Grip the pull-up bar with an overhand grip.",
+      "Pull your body up until your chin clears the bar.",
+      "Lower yourself with control."
+    ],
+    "instruction_steps": [
+      "1. 双手正握单杠，双手间距略宽于肩。",
+      "2. 沉肩下压，背部发力将身体向上拉起，直到下巴超过单杠。",
+      "3. 控制速度缓慢还原至初始手臂伸直状态。"
+    ],
+    "common_mistakes": [
+      "身体前后剧烈晃动借力",
+      "手臂完全发力而背部没有收紧"
+    ],
+    "safety_tips": [
+      "初学者可以先使用弹力带辅助或进行高位下拉（Lat Pulldown）训练。"
+    ]
+  },
+  {
+    "id": "0004",
+    "name": "Dumbbell Shoulder Press",
+    "name_zh": "哑铃坐姿推举",
+    "category": "strength",
+    "body_part": "shoulders",
+    "equipment": "dumbbell",
+    "target": "delts",
+    "secondary_muscles": [
+      "triceps"
+    ],
+    "instructions": [
+      "Sit on a bench with back support, holding dumbbells at shoulder level.",
+      "Press the dumbbells straight up until your arms are extended.",
+      "Lower slowly back to shoulder height."
+    ],
+    "instruction_steps": [
+      "1. 坐在靠背椅上，双手各握一哑铃于身体两侧，掌心向前。",
+      "2. 呼气，将哑铃向上推举，直到两手臂在头顶上方接近但不要相撞。",
+      "3. 吸气，缓慢还原至起始肩部高度。"
+    ],
+    "common_mistakes": [
+      "腰部过度反弓借力",
+      "下放幅度过大导致肩关节过度拉伸"
+    ],
+    "safety_tips": [
+      "选择合适重量，若感到肩部刺痛应立即停止。"
+    ]
+  },
+  {
+    "id": "0005",
+    "name": "Barbell Squat",
+    "name_zh": "杠铃深蹲",
+    "category": "strength",
+    "body_part": "upper legs",
+    "equipment": "barbell",
+    "target": "quads",
+    "secondary_muscles": [
+      "glutes",
+      "hamstrings",
+      "core"
+    ],
+    "instructions": [
+      "Rest the barbell across your upper back (traps).",
+      "Stand with feet shoulder-width apart, bend knees and hips to lower your body.",
+      "Push through your heels to return to standing."
+    ],
+    "instruction_steps": [
+      "1. 将杠铃稳定放置在斜方肌上，双手握紧杠铃。",
+      "2. 抬头挺胸，核心收紧，向后坐臀部并屈膝下蹲，大腿与地面平行或略低于平行。",
+      "3. 全脚掌特别是脚后跟发力，驱动身体起立回到初始位置。"
+    ],
+    "common_mistakes": [
+      "膝盖内扣（X型腿）",
+      "重心前移全部压在脚尖上",
+      "下蹲时腰椎弯曲（屁股眨眼）"
+    ],
+    "safety_tips": [
+      "务必在深蹲架内进行，并调整好安全杠高度；大重量时建议佩戴腰带。"
+    ]
+  },
+  {
+    "id": "0006",
+    "name": "Plank",
+    "name_zh": "平板支撑",
+    "category": "strength",
+    "body_part": "waist",
+    "equipment": "body weight",
+    "target": "abs",
+    "secondary_muscles": [
+      "core",
+      "shoulders"
+    ],
+    "instructions": [
+      "Hold a push-up position with weight on your forearms instead of your hands.",
+      "Keep your body in a straight line from head to heels."
+    ],
+    "instruction_steps": [
+      "1. 双肘弯曲支撑在地面上，肩膀在手肘正上方。",
+      "2. 双腿并拢伸直，腹部与臀部收紧，使头部、背部、臀部和脚后跟呈一条直线。",
+      "3. 保持自然呼吸，坚持规定时间。"
+    ],
+    "common_mistakes": [
+      "腰部塌陷、臀部高高翘起",
+      "憋气"
+    ],
+    "safety_tips": [
+      "若腰部酸痛应立即停止，避免腰椎受损。"
+    ]
+  },
+  {
+    "id": "0007",
+    "name": "Treadmill Running",
+    "name_zh": "跑步机有氧跑",
+    "category": "cardio",
+    "body_part": "cardio",
+    "equipment": "machine",
+    "target": "cardiovascular system",
+    "secondary_muscles": [
+      "quads",
+      "calves"
+    ],
+    "instructions": [
+      "Step onto the treadmill, set a comfortable speed, and maintain an steady running pace."
+    ],
+    "instruction_steps": [
+      "1. 双脚站在跑步机两侧边条上，启动设备并调节至合适低速。",
+      "2. 踏上跑带，保持身体直立，目视前方，自然摆臂。",
+      "3. 运动结束后逐渐降低速度并慢走放松。"
+    ],
+    "common_mistakes": [
+      "跑步时双手死死抓着扶手不放",
+      "步幅过大导致关节冲击力过强"
+    ],
+    "safety_tips": [
+      "上下跑步机前请务必先将安全夹夹在衣服上，以防意外跌倒时机器自动紧急制动。"
+    ]
+  },
+  {
+    "id": "0008",
+    "name": "Cable Bicep Curl",
+    "name_zh": "绳索二头弯举",
+    "category": "strength",
+    "body_part": "upper arms",
+    "equipment": "cable",
+    "target": "biceps",
+    "secondary_muscles": [
+      "forearms"
+    ],
+    "instructions": [
+      "Attach a straight bar or rope to a low pulley, grab it with an underhand grip.",
+      "Curl the weight up toward your chest while keeping your elbows stationary."
+    ],
+    "instruction_steps": [
+      "1. 将拉力器调至最低位，双手正握或反握把手，挺胸站立。",
+      "2. 大臂紧贴身体两侧不动，集中肱二头肌发力将把手向上拉起。",
+      "3. 顶峰收缩1秒后缓慢下放还原。"
+    ],
+    "common_mistakes": [
+      "身体前后晃动借力",
+      "手肘向前耸起"
+    ],
+    "safety_tips": [
+      "注意控制重量，避免拉力回弹过快伤到肘关节。"
+    ]
+  }
+]

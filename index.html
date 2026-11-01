@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FitStart - 第一次健身？从认识一个动作开始</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- 顶部横幅 -->
+  <header>
+    <h1>FitStart</h1>
+    <p>第一次健身？从认识一个动作开始。为中文健身初学者打造的专业动作查询指南。</p>
+  </header>
+
+  <!-- 主体容器 -->
+  <div class="container">
+
+    <!-- 搜索与筛选控制面板 -->
+    <div class="control-panel">
+      <!-- 搜索框 -->
+      <div class="search-box">
+        <span>🔍</span>
+        <input type="text" id="searchInput" placeholder="搜索中文动作名称、英文原名、身体部位或器械...">
+      </div>
+
+      <!-- 身体部位分类 -->
+      <div class="filter-section">
+        <h3>身体部位分类</h3>
+        <div class="tag-group" id="bodyPartTags">
+          <span class="tag active" data-part="all">全部部位</span>
+          <span class="tag" data-part="胸部">胸部</span>
+          <span class="tag" data-part="背部">背部</span>
+          <span class="tag" data-part="肩部">肩部</span>
+          <span class="tag" data-part="手臂">手臂</span>
+          <span class="tag" data-part="腹部">腹部</span>
+          <span class="tag" data-part="腿部">腿部</span>
+          <span class="tag" data-part="有氧">有氧</span>
+        </div>
+      </div>
+
+      <!-- 器械分类 -->
+      <div class="filter-section">
+        <h3>器械分类</h3>
+        <div class="tag-group" id="equipmentTags">
+          <span class="tag active" data-eq="all">全部器械</span>
+          <span class="tag" data-eq="无器械" style="background-color: #d8f3dc; font-weight: bold;">🙋 我没有器械 (徒手)</span>
+          <span class="tag" data-eq="哑铃">哑铃</span>
+          <span class="tag" data-eq="杠铃">杠铃</span>
+          <span class="tag" data-eq="拉力器">拉力器</span>
+          <span class="tag" data-eq="弹力带">弹力带</span>
+          <span class="tag" data-eq="健身器械">健身器械</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- 状态栏 -->
+    <div class="status-bar">
+      <span>筛选结果：<strong id="resultCount">0</strong> 个动作</span>
+      <span>动作库总量：<strong id="totalCount">0</strong> 个动作</span>
+    </div>
+
+    <!-- 动作卡片网格 -->
+    <div class="exercise-grid" id="exerciseGrid">
+      <!-- 动态生成 -->
+    </div>
+
+  </div>
+
+  <!-- 动作详情弹窗 Modal -->
+  <div class="modal" id="exerciseModal">
+    <div class="modal-content">
+      <button class="close-btn" id="closeModal">×</button>
+      <h2 class="modal-title" id="modalTitle">动作名称</h2>
+      <div class="modal-subtitle" id="modalSubtitle">英文原名</div>
+
+      <div class="detail-section">
+        <h4>肌群与器械</h4>
+        <p id="modalTarget">主要训练：-</p>
+        <p id="modalSecondary">辅助肌肉：-</p>
+        <p id="modalEquipment">所需器械：-</p>
+      </div>
+
+      <div class="detail-section">
+        <h4>动作标准步骤</h4>
+        <ul id="modalSteps">
+          <!-- 步骤列表 -->
+        </ul>
+      </div>
+
+      <div class="detail-section">
+        <h4>新手常见错误</h4>
+        <ul id="modalMistakes" style="color: #c92a2a;">
+          <!-- 常见错误列表 -->
+        </ul>
+      </div>
+
+      <div class="detail-section">
+        <h4>安全注意事项</h4>
+        <ul id="modalSafety" style="color: #2b8a3e;">
+          <!-- 安全提示 -->
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 页脚版权说明 -->
+  <footer>
+    <p>© 2026 FitStart. All rights reserved. Built for Chinese Fitness Beginners.</p>
+    <p style="margin-top: 5px; font-size: 0.8rem;">遵循 MIT 开源协议。所有动图与多媒体采用纯前端占位设计，严格保护第三方媒体版权。</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
